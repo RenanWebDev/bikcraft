@@ -4,3 +4,6 @@
 @import "./global/header.css";
 @import "./utilidades/componentes.css";
 @import "./home/introducao.css";
+
+/* Lista de Bicicletas */
+@import "./bicicletas/bicicletas-lista.css";
