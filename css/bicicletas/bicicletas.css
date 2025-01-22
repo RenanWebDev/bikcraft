@@ -1,5 +1,7 @@
 .bicicletas-bg {
+
   background: linear-gradient(to right, var(--cor-0) 30%, var(--cor-11) 0%);
+  
 }
 .bicicletas {
   display: grid;
@@ -25,6 +27,7 @@
   display: grid;
   grid-template-columns: 1fr auto;
   align-content: start;
+  background: url("../../img/dec/top-right.svg") no-repeat top -1px right 20px;
 }
 .bicicletas h2,
 .bicicletas p {
@@ -67,10 +70,12 @@
     background: var(--cor-11);
   }
   .bicicletas {
+    display: grid;
     grid-template-columns: 1fr;
-    gap: 20px;
-    padding-top: 40px;
-    padding-top: 40px;
+    gap: 40px;
+    padding-top: 60px;
+    padding-top: 60px;
+    
   }
 }
 @media (max-width: 600px) {
